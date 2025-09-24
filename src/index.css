@@ -26,3 +26,6 @@ section{
     height: 100vh;
     scroll-snap-align: center;
 }
+.section1{
+    position: relative;
+}

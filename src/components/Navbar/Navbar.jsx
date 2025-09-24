@@ -1,12 +1,10 @@
 import "./Navbar.scss"
-import SideBar from './SideBar'
 import { motion } from "framer-motion"
 import { dribbble, facebook, instagram, youtube } from "../../assets/images"
 
 const Navbar = () => {
   return (
     <>
-      <sideBar/>
       <motion.nav initial={{ opacity: 0, x: -100, y: -10 }} animate={{ opacity: 1, x: 0, y: 0 }} >
         <h2>AELROW DEV</h2>
         <ul>

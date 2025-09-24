@@ -1,13 +1,11 @@
-import './Navbar.scss'
+import './Sidebar.scss'
+import { motion } from 'framer-motion'
 
-/* 
-*/
-
-const sideBar = () => {
+const sideBar = ({setOpen}) => {
     return (
-        <div>
-            <button>
-                <svg width="23" height="23" viewBox="0 0 23 23">
+        <motion.div className='bar' >
+            <button onClick={()=>setOpen(prev=>!prev)}>
+                {/* <svg width="23" height="23" viewBox="0 0 23 23">
                     <motion.path
                         strokeWidth="3"
                         stroke="black"
@@ -37,11 +35,11 @@ const sideBar = () => {
                             closed: { d: "M 2 16.346 L 20 16.346" },
                             open: { d: "M 3 2.5 L 17 16.346" }
                         }}
-                    />
-                </svg>
-
+                    /> 
+                </svg>*/}
+                button
             </button>
-        </div>
+        </motion.div>
     )
 }
 
