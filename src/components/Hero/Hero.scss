@@ -1,0 +1,24 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 700px;
+    }
+    h2{
+        color: #543a85;
+        font-size: 30px;
+        letter-spacing: 4px;
+        padding-bottom: 25px;
+    }
+    p{
+        font-size: 50px;
+        padding: 10px 0;
+        font-weight: 600;
+    }
+}

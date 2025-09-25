@@ -5,7 +5,7 @@ import { dribbble, facebook, instagram, youtube } from "../../assets/images"
 const Navbar = () => {
   return (
     <>
-      <motion.nav initial={{ opacity: 0, x: -100, y: -10 }} animate={{ opacity: 1, x: 0, y: 0 }} >
+      <motion.nav id="Homepage" initial={{ opacity: 0, scale:0.5 }} animate={{ opacity: 1, scale:1, transition:{duration:1}}} >
         <h2>AELROW DEV</h2>
         <ul>
           <li><img src={facebook} alt="" /></li>

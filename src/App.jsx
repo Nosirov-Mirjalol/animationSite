@@ -6,13 +6,13 @@ function App() {
 
   return (
     <>
-      <Sidebar/>
       <section className='section1'>
+        <Sidebar/>
         <Navbar/>
         <Hero/>
       </section>
       <section>div2</section>
-      <section>div3</section>
+      <section id='Contact'>div3</section>
       <section>div4</section>
     </>
   )
