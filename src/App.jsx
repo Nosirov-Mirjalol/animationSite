@@ -1,5 +1,6 @@
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
+import Parallax from './components/Parallax/Parallax'
 import Sidebar from './components/Sidebar/Sidebar'
 
 function App() {
@@ -11,9 +12,14 @@ function App() {
         <Navbar/>
         <Hero/>
       </section>
-      <section>div2</section>
+      <section>
+        <Parallax parallax={1}/>
+      </section>
       <section id='Contact'>div3</section>
-      <section>div4</section>
+      <section>
+        <Parallax parallax={2} />
+      </section>
+      <section></section>
     </>
   )
 }

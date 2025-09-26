@@ -25,6 +25,7 @@ a{
 section{
     height: 100vh;
     scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 .section1{
     position: relative;
