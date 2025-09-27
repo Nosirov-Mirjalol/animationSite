@@ -1,4 +1,4 @@
-import './Portfolio.scss'
+import './Services.scss'
 import { people } from '../../assets/images'
 
 const cardData=[

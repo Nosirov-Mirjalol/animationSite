@@ -1,8 +1,8 @@
 import Hero from './components/Hero/Hero'
 import Navbar from './components/Navbar/Navbar'
 import Parallax from './components/Parallax/Parallax'
-import Portfolio from './components/Portfolio/Portfolio'
 import Sidebar from './components/Sidebar/Sidebar'
+import Services from './components/Services/Services'
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
         <Parallax parallax={1}/>
       </section>
       <section id='Portfolio'>
-        <Portfolio />
+        <Services/>
       </section>
       <section id='Contact'>
         <Parallax parallax={2} />

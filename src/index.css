@@ -3,6 +3,7 @@
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    
 }
 
 *{
@@ -32,4 +33,8 @@ section{
 }
 #Portfolio{
     background: linear-gradient(#0c0c1d,#121131);
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
