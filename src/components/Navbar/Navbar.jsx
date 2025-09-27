@@ -10,8 +10,8 @@ const Navbar = () => {
         <ul>
           <li><img src={facebook} alt="" /></li>
           <li><img src={instagram} alt="" /></li>
+          <a href="https://github.com/Nosirov-Mirjalol"><img src={dribbble} alt="" /></a>
           <li><img src={youtube} alt="" /></li>
-          <li><img src={dribbble} alt="" /></li>
         </ul>
       </motion.nav>
     </>

@@ -35,8 +35,8 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className='card'>
-                {cardData.map(item=>
-                    <div>
+                {cardData.map((item,inx)=>
+                    <div key={inx}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                         <button>Go</button>
