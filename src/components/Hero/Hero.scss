@@ -38,6 +38,7 @@
     }
     .btn2{
         margin-left: 15px;
+        cursor: pointer;
     }
     .scroll{
         width: 55px;
@@ -52,5 +53,6 @@
         white-space: nowrap;
         color: #ffffff09;
         font-weight: bold;
+        z-index: -1;
     }
 }

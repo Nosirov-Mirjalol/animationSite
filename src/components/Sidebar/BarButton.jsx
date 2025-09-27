@@ -52,7 +52,7 @@ export default function HamburgerToggle({
         />
 
         <motion.path
-          d="M 2 11.5 L 20 11.5"
+          d="M 1 11.5 L 20 11.5"
           stroke={stroke}
           strokeWidth={strokeWidth}
           strokeLinecap="round"
