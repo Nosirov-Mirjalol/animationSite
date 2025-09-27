@@ -39,6 +39,7 @@ const Portfolio = () => {
                     <div>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
+                        <button>Go</button>
                     </div>
                 )}
             </div>
