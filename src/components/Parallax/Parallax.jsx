@@ -13,7 +13,7 @@ const Parallax = ({
   const yText=useTransform(scrollYProgress,[0,1],["0%","300%"])
   const yBg=useTransform(scrollYProgress,[0,1],["0%","90%"])
   return (
-    <motion.div whileInView={{opacity:1,transition:{duration:1}}} initial={{opacity:0}} ref={ref} id={parallax === 1 ? "Services" : "About"} className={parallax === 1 ? "parallax dark" : "parallax light"}>
+    <motion.div whileInView={{opacity:1,transition:{duration:1}}} initial={{opacity:0}} ref={ref} className={parallax === 1 ? "parallax dark" : "parallax light"}>
       <motion.h1 style={{y:yText}}>{parallax === 1 ? "What We Do" : "What We Did"}</motion.h1>
       <motion.div className="mountain"></motion.div>
       <motion.div style={{y:yBg}} className={parallax===1?"planet moon":"planet sun"}></motion.div>
