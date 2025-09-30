@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <div className="sectionContainer">
-      <motion.div className="container" initial={{ opacity: 0, x: -200 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 1.5 } }} >
+      <motion.div className="container " initial={{ opacity: 0, x: -200 }} whileInView={{ opacity: 1, x: -28, transition: { duration: 1.5 } }} >
         <h2>Mirjalol Nosirov</h2>
         <p>Front end developer</p>
         <button className="btn btn1">See the Latest Works</button>

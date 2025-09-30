@@ -45,7 +45,6 @@
             background-color: transparent;
             border: 1px solid white;
             border-radius: 8px;
-            overflow: hidden;
         }
         button{
             border: none;
@@ -53,6 +52,18 @@
             padding: 13px;
             background-color: orange;
             border-radius: 1px;
+        }
+    }
+}
+@media (max-width:1286px) {
+    .contact{
+        padding: 0 20px;
+
+        .textContainer{
+
+            h1{
+                font-size: 77px;
+            }
         }
     }
 }

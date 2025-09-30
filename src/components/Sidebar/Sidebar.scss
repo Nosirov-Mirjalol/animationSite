@@ -20,6 +20,9 @@
     margin-top: 10px;
     overflow: hidden;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     z-index: 120;
 }
@@ -45,4 +48,12 @@
 }
 .none{
     display: none;
+}
+@media (max-width:1286px) {
+    .mainbtn{
+        width: 40px;
+        height: 40px;
+        margin-top: 27px;
+        margin-left: 10px;
+    }
 }
