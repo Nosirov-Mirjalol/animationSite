@@ -1,5 +1,6 @@
 import './Services.scss'
 import { people } from '../../assets/images'
+import {motion} from 'framer-motion'
 
 const cardData=[
     {
@@ -36,11 +37,11 @@ const Portfolio = () => {
             </div>
             <div className='card'>
                 {cardData.map((item,inx)=>
-                    <div key={inx}>
+                    <motion.div initial={{opacity:0,y:100}} whileInView={{opacity:1,y:0,transition:{duration:1.5}}} key={inx}>
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                         <button>Go</button>
-                    </div>
+                    </motion.div>
                 )}
             </div>
         </div>

@@ -27,7 +27,12 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
+        position: relative;
 
+        .phoneSvg{
+            position: absolute;
+            left: 100px;
+        }
         form{
             display: flex;
             flex-direction: column;
