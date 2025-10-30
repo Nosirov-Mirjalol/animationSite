@@ -11,15 +11,15 @@ function App() {
   return (
     <>
       <section className='section1'>
-        <Sidebar/>
-        <Navbar/>
-        <Hero/>
+        <Sidebar />
+        <Navbar />
+        <Hero />
       </section>
       <section>
-        <Parallax parallax={1}/>
+        <Parallax parallax={1} />
       </section>
       <section id='Services'>
-        <Services/>
+        <Services />
       </section>
       <section>
         <Parallax parallax={2} />
